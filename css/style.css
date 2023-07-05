@@ -132,11 +132,11 @@ i {
 }
 
 input:checked + .slider {
-  background-color: #faf7fd;
+  background-color: var(--blue);
 }
 
 input:checked + .slider:before {
   transform: translateX(1.5em);
-  background: #faf7fd;
-  box-shadow: inset -6px -3px 0 0 var(--blue);
+  background: var(--blue);
+  box-shadow: inset -6px -3px 0 0 #faf7fd;
 }
