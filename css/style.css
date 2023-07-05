@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --body-bg-color: #faf7fd;
+  --blue: #42D3FF;
+}
+
+.dark-mode:root {
+  --body-bg-color: #121214;
+  --blue: #42D3FF;
+}
+
+body {
+  background: var(--body-bg-color);
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  max-width: 414px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-img {
+  width: 200px;
+}
+
+.profile-img img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid var(--blue);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.profile p {
+  font-weight: 300;
+  color: var(--blue);
+  margin-top: 15px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  margin: 0 44px;
+  gap: 15px;
+  margin-top: 33px;
+}
+
+.social-links a {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--blue);
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.social-links span {
+  margin: 0 auto;
+}
+
+.social-links a:hover {
+    background: var(--blue);
+    color: var(--body-bg-color);
+    transition: all .2s;
+}
+
+i {
+  font-size: 1.6rem;
+  position: absolute;
+}
+
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3em;
+  height: 1.5em;
+  margin-left: 44px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--blue);
+  transition: 0.4s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 0.9em;
+  width: 0.9em;
+  border-radius: 20px;
+  left: 0.3em;
+  bottom: 0.3em;
+  background: var(--body-bg-color);
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #faf7fd;
+}
+
+input:checked + .slider:before {
+  transform: translateX(1.5em);
+  background: #faf7fd;
+  box-shadow: inset -6px -3px 0 0 var(--blue);
+}
