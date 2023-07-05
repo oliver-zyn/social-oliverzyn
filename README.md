@@ -6,7 +6,7 @@
 
 O Social Oliverzyn é uma página inspirada no linktree, onde possui os links para todas as minhas redes sociais / portfólio em um lugar só, facilitando a divulgação.
 
-Preview: X
+Preview: https://social-oliverzyn.netlify.app
 
 ## 💻 Tecnologias utilizadas
 
