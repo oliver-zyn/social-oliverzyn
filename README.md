@@ -1,6 +1,6 @@
 # Social Oliverzyn
 
-<img src="https://github.com/oliver-zyn/social-oliverzyn/assets/89222905/f01edbd0-839a-4ddd-9786-9c59565e1712" width="600" />
+<img src="https://github.com/oliver-zyn/social-oliverzyn/assets/89222905/5b1b2303-ae94-4425-af33-3c65fa064d52" width="600" />
 
 ## 📖 Sobre
 
